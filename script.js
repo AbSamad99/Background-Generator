@@ -11,22 +11,22 @@ var buttonRandomiser = document.querySelector(".buttonRandomiser");
 document.onload= css.textContent= body.style.background + ";";
 
 function setBackground(){
-  body.style.background = "linear-gradient(to right," + color1.value + ", " + color2.value +")";
+  body.style.background = "background-image: linear-gradient(to right," + color1.value + ", " + color2.value +")";
   css.textContent= body.style.background + ";";
 }
 
 function setBackgroundLeft(){
-  body.style.background = "linear-gradient(to left," + color1.value + ", " + color2.value +")";
+  body.style.background = "background-image: linear-gradient(to left," + color1.value + ", " + color2.value +")";
   css.textContent= body.style.background + ";";
 }
 
 function setBackgroundBottom(){
-  body.style.background = "linear-gradient(" + color1.value + ", " + color2.value +")";
+  body.style.background = "background-image: linear-gradient(" + color1.value + ", " + color2.value +")";
   css.textContent= body.style.background + ";";
 }
 
 function setBackgroundBottomRight(){
-  body.style.background = "linear-gradient(to bottom right," + color1.value + ", " + color2.value +")";
+  body.style.background = "background-image: linear-gradient(to bottom right," + color1.value + ", " + color2.value +")";
   css.textContent= body.style.background + ";";
 }
 
